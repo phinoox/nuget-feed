@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>NanoVG.NET-TK4</id>
+    <version>1.0.7</version>
+    <authors>phinoox</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>OpenTK4 fork of bitiopia's NanoVG port</description>
+    <copyright>Copyright 2019</copyright>
+    <tags>opentk nanovg gui drawing vector graphics</tags>
+    <repository type="git" commit="eee5aa9f01252a7fe5c16b88c571967b4cc4eecd" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="OpenTK" version="4.0.6" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="4.5.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
